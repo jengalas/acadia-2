@@ -1,0 +1,1305 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.28015,44.30083 ]
+    },
+    "properties": {
+        "name":"Asticou Terraces Parking",
+        "number":"1",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.278646,44.300290 ]
+    },
+    "properties": {
+        "name":"Asticou Terraces",
+        "number":"1",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.337299,44.222593 ]
+    },
+    "properties": {
+        "name":"Bass Harbor Lighthouse Trail",
+        "number":"2",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.332606,44.223542 ]
+    },
+    "properties": {
+        "name":"Bass Harbor Lighthouse Trail",
+        "number":"2",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.334727,44.302941 ]
+    },
+    "properties": {
+        "name":"Beech Mountain Abandoned Trail",
+        "number":"3",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.344154,44.310725 ]
+    },
+    "properties": {
+        "name":"Beech Mountain Abandoned Trail",
+        "number":"3",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.392567,44.291870 ]
+    },
+    "properties": {
+        "name":"Bernard Mountain Western Dome and Sea Cave",
+        "number":"4",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.389006,44.300589 ]
+    },
+    "properties": {
+        "name":"Bernard Mountain Western Dome and Sea Cave",
+        "number":"4",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.334893,44.242904 ]
+    },
+    "properties": {
+        "name":"Big Rocks",
+        "number":"5",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.333605,44.243279 ]
+    },
+    "properties": {
+        "name":"Big Rocks",
+        "number":"5",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.364865,44.382797 ]
+    },
+    "properties": {
+        "name":"Blagden Preserve",
+        "number":"6",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.369952,44.387305 ]
+    },
+    "properties": {
+        "name":"Blagden Preserve",
+        "number":"6",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.220815,44.309835 ]
+    },
+    "properties": {
+        "name":"Boyd Road",
+        "number":"7",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.226850,44.325789 ]
+    },
+    "properties": {
+        "name":"Boyd Road",
+        "number":"7",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.252599,44.411368 ]
+    },
+    "properties": {
+        "name":"Breakneck Road",
+        "number":"8",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.25432,44.39359 ]
+    },
+    "properties": {
+        "name":"Breakneck Road",
+        "number":"8",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.241435,44.349917 ]
+    },
+    "properties": {
+        "name":"Bubble Pond Ledge",
+        "number":"9",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.238447,44.347102 ]
+    },
+    "properties": {
+        "name":"Bubble Pond Ledge",
+        "number":"9",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.345659,44.323412 ]
+    },
+    "properties": {
+        "name":"Carter Nubble",
+        "number":"10",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.343404,44.323097 ]
+    },
+    "properties": {
+        "name":"Carter Nubble",
+        "number":"10",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.285425,44.312343 ]
+    },
+    "properties": {
+        "name":"Cedar Swamp Mountain Plane Crash Site",
+        "number":"11",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.27702,44.32915 ]
+    },
+    "properties": {
+        "name":"Cedar Swamp Mountain Plane Crash Site",
+        "number":"11",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.178614,44.333932 ]
+    },
+    "properties": {
+        "name":"Chasm Cove",
+        "number":"12",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.176065,44.333786 ]
+    },
+    "properties": {
+        "name":"Chasm Cove",
+        "number":"12",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.227552,44.299282 ]
+    },
+    "properties": {
+        "name":"Cleft Cliff",
+        "number":"13",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.229529,44.309053 ]
+    },
+    "properties": {
+        "name":"Cleft Cliff",
+        "number":"13",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.293428,44.398752 ]
+    },
+    "properties": {
+        "name":"Cox Summit",
+        "number":"14",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.29252,44.40468 ]
+    },
+    "properties": {
+        "name":"Cox Summit",
+        "number":"14",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.181668,44.348386 ]
+    },
+    "properties": {
+        "name":"Cranberry Hill",
+        "number":"15",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.180204,44.347458 ]
+    },
+    "properties": {
+        "name":"Cranberry Hill",
+        "number":"15",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.200226,44.317087 ]
+    },
+    "properties": {
+        "name":"Dam Brook Sea Falls",
+        "number":"16",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.203118,44.321589 ]
+    },
+    "properties": {
+        "name":"Dam Brook Sea Falls",
+        "number":"16",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.214907,44.312850 ]
+    },
+    "properties": {
+        "name":"Eagles Crag Foot Path",
+        "number":"17",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.217115,44.324649 ]
+    },
+    "properties": {
+        "name":"Eagles Crag Foot Path",
+        "number":"17",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.195731,44.368936 ]
+    },
+    "properties": {
+        "name":"East Knob",
+        "number":"18",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.19247,44.36908 ]
+    },
+    "properties": {
+        "name":"East Knob",
+        "number":"18",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.267022,44.290055 ]
+    },
+    "properties": {
+        "name":"Eliot Mountain",
+        "number":"19",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.27214,44.30437 ]
+    },
+    "properties": {
+        "name":"Eliot Mountain",
+        "number":"19",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.269242,44.412437 ]
+    },
+    "properties": {
+        "name":"Fawn Falls and Lake Wood Cascade",
+        "number":"20",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.265916,44.405727 ]
+    },
+    "properties": {
+        "name":"Fawn Falls and Lake Wood Cascade",
+        "number":"20",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.250450,44.341095 ]
+    },
+    "properties": {
+        "name":"Goat Trail",
+        "number":"21",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.24698,44.33517 ]
+    },
+    "properties": {
+        "name":"Goat Trail",
+        "number":"21",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.178614,44.333932 ]
+    },
+    "properties": {
+        "name":"Great Head Sea Caves",
+        "number":"22",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.175972,44.326708 ]
+    },
+    "properties": {
+        "name":"Great Head Sea Caves",
+        "number":"22",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.220815,44.309835 ]
+    },
+    "properties": {
+        "name":"Green Mountain Trail",
+        "number":"23",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.223123,44.324924 ]
+    },
+    "properties": {
+        "name":"Green Mountain Trail",
+        "number":"23",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.201962,44.348255 ]
+    },
+    "properties": {
+        "name":"Huguenot Falls Trail",
+        "number":"24",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.19976,44.35305 ]
+    },
+    "properties": {
+        "name":"Huguenot Falls Trail",
+        "number":"24",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.269242,44.412437 ]
+    },
+    "properties": {
+        "name":"Hull's Cove Hill",
+        "number":"25",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.26262,44.40506 ]
+    },
+    "properties": {
+        "name":"Hull's Cove Hill",
+        "number":"25",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.217339,44.375751 ]
+    },
+    "properties": {
+        "name":"Kebo Mountain",
+        "number":"26",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.21758,44.36914 ]
+    },
+    "properties": {
+        "name":"Kebo Mountain",
+        "number":"26",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.301618,44.373407 ]
+    },
+    "properties": {
+        "name":"Kittredge Brook Forest Scenic Outlook",
+        "number":"27",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.303156,44.378195 ]
+    },
+    "properties": {
+        "name":"Kittredge Brook Forest Scenic Outlook",
+        "number":"27",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.300088,44.385003 ]
+    },
+    "properties": {
+        "name":"Kittredge Cascade Overlook",
+        "number":"28",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.301885,44.383539 ]
+    },
+    "properties": {
+        "name":"Kittredge Cascade Overlook",
+        "number":"28",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.35935,44.29606 ]
+    },
+    "properties": {
+        "name":"Knight Nubble",
+        "number":"29",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.37015,44.30461 ]
+    },
+    "properties": {
+        "name":"Knight Nubble",
+        "number":"29",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.269280,44.412385 ]
+    },
+    "properties": {
+        "name":"Lake Wood and Fawn Pond",
+        "number":"30",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.266577,44.406677 ]
+    },
+    "properties": {
+        "name":"Lake Wood and Fawn Pond",
+        "number":"30",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.350054,44.300290 ]
+    },
+    "properties": {
+        "name":"Mansell Amphitheater",
+        "number":"31",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.36034,44.30851 ]
+    },
+    "properties": {
+        "name":"Millbroook Falls",
+        "number":"32",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.350054,44.300290 ]
+    },
+    "properties": {
+        "name":"Millbroook Falls",
+        "number":"32",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.36034,44.30851 ]
+    },
+    "properties": {
+        "name":"Mansell Amphitheater",
+        "number":"31",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.296240,44.298532 ]
+    },
+    "properties": {
+        "name":"NE Harbor Cliff Cave",
+        "number":"33",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.292231,44.305609 ]
+    },
+    "properties": {
+        "name":"NE Harbor Cliff Cave",
+        "number":"33",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.298343,44.308282 ]
+    },
+    "properties": {
+        "name":"NE Harbor Hadlock Stream Cascades",
+        "number":"34",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.29269,44.30650 ]
+    },
+    "properties": {
+        "name":"NE Harbor Hadlock Stream Cascades",
+        "number":"34",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.29686,44.29919 ]
+    },
+    "properties": {
+        "name":"NE Harbor Schoolhouse Quarry",
+        "number":"35",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.294100,44.299607 ]
+    },
+    "properties": {
+        "name":"NE Harbor Schoolhouse Quarry",
+        "number":"35",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.35935,44.29606 ]
+    },
+    "properties": {
+        "name":"Old Spring Trail",
+        "number":"36",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.37159,44.30162 ]
+    },
+    "properties": {
+        "name":"Old Spring Trail",
+        "number":"36",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.193771,44.310331 ]
+    },
+    "properties": {
+        "name":"Otter Cove Sea Cave",
+        "number":"37",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.195210,44.314443 ]
+    },
+    "properties": {
+        "name":"Otter Cove Sea Cave",
+        "number":"37",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.201967,44.348252 ]
+    },
+    "properties": {
+        "name":"Otter Creek Cascades",
+        "number":"38",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.207858,44.332905 ]
+    },
+    "properties": {
+        "name":"Otter Creek Cascades",
+        "number":"38",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.201967,44.348252 ]
+    },
+    "properties": {
+        "name":"Otter Creek Ledge",
+        "number":"39",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.210762,44.334156 ]
+    },
+    "properties": {
+        "name":"Otter Creek Ledge",
+        "number":"39",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.192217,44.307670 ]
+    },
+    "properties": {
+        "name":"Otter Point Tunnel Cave",
+        "number":"40",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.190686,44.306905 ]
+    },
+    "properties": {
+        "name":"Otter Point Tunnel Cave",
+        "number":"40",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.201974,44.348270 ]
+    },
+    "properties": {
+        "name":"Potholes Path",
+        "number":"41",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.213463,44.331023 ]
+    },
+    "properties": {
+        "name":"Potholes Path",
+        "number":"41",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.19849,44.32092 ]
+    },
+    "properties": {
+        "name":"Schoolhouse Hill in Otter Cove",
+        "number":"42",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.19706,44.32463 ]
+    },
+    "properties": {
+        "name":"Schoolhouse Hill in Otter Cove",
+        "number":"42",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.397362,44.315654 ]
+    },
+    "properties": {
+        "name":"Seal Cove Pond (Gorge Cascades and Stewart Cliff)",
+        "number":"43",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.391771,44.305696 ]
+    },
+    "properties": {
+        "name":"Seal Cove Pond (Gorge Cascades and Stewart Cliff)",
+        "number":"43",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.307697,44.363594 ]
+    },
+    "properties": {
+        "name":"South Whalesback Cove",
+        "number":"44",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.310033,44.361600 ]
+    },
+    "properties": {
+        "name":"South Whalesback Cove",
+        "number":"44",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.350244,44.300180 ]
+    },
+    "properties": {
+        "name":"Southern Neck",
+        "number":"45",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.367336,44.329837 ]
+    },
+    "properties": {
+        "name":"Southern Neck",
+        "number":"45",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.215029,44.312790 ]
+    },
+    "properties": {
+        "name":"South Ridge Cadillac Cliff",
+        "number":"46",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.223688,44.331067 ]
+    },
+    "properties": {
+        "name":"South Ridge Cadillac Cliff",
+        "number":"46",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.332498,44.312037 ]
+    },
+    "properties": {
+        "name":"St Sauveur Cliff",
+        "number":"47",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.329783,44.309410 ]
+    },
+    "properties": {
+        "name":"St Sauveur Cliff",
+        "number":"47",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.241374,44.349986 ]
+    },
+    "properties": {
+        "name":"West Cadillac Cascades",
+        "number":"48",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.240938,44.352826 ]
+    },
+    "properties": {
+        "name":"West Cadillac Cascades",
+        "number":"48",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.226935,44.388937 ]
+    },
+    "properties": {
+        "name":"West Extension Lookout",
+        "number":"49",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.231038,44.387729 ]
+    },
+    "properties": {
+        "name":"West Extension Lookout",
+        "number":"49",
+        "type":"Feature",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.259716,44.374778 ]
+    },
+    "properties": {
+        "name":"Youngs Mountain South Ledge",
+        "number":"50",
+        "type":"Parking",
+        "notes":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.268959,44.386995 ]
+    },
+    "properties": {
+        "name":"Youngs Mountain South Ledge",
+        "number":"50",
+        "type":"Feature",
+        "notes":""
+    }
+  }
+]
+}

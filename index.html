@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" 
+        crossorigin="" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+          crossorigin=""></script>
+  <script src="https://unpkg.com/esri-leaflet"></script>
+  <link rel="stylesheet" href="vendor/Leaflet.MapCenterCoord-v0.7/dist/L.Control.MapCenterCoord.min.css" />
+  <script src="vendor/Leaflet.MapCenterCoord-v0.7/dist/L.Control.MapCenterCoord.min.js"></script>
+  
+  <style>
+    div[class*="number-icon-"] {
+      border-radius: 15px;
+      color: #ffffff;
+      text-align: center;
+    }
+    .number-icon-gray {
+        background-color: rgba(75, 72, 72, 0.6);
+      }
+    .number-icon-red {
+        background-color: rgba(226, 36, 36, 0.6);
+    }
+    #info_text {
+      background-color: white;
+      border-radius: 5px;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <script>
+
+        // var southWest = L.latLng(43.259206, -70.922241),
+        //     northEast = L.latLng(45.356005, -65.648804),
+        //     bounds = L.latLngBounds(southWest, northEast);
+
+        // var map = L.map('map',{
+        //     maxBounds: bounds}).setView([44.31759,-68.28667], 9);
+
+        var map = L.map('map').setView([44.31759,-68.28667], 10);
+
+        L.Control.textbox = L.Control.extend({
+          onAdd: function(map) {
+            
+          var text = L.DomUtil.create('div');
+          text.id = "info_text";
+          text.classList.add("leaflet-control-layers");
+          text.innerHTML = "<strong>This map displays the featured locations and corresponding parking locations for each chapter in Matthew Marchon's book <i><a href='https://matthewmarchon.weebly.com/acadia-2.html'>The Acadia You Haven't Seen 2: An Off Trail Hiking Guide To Abandoned Trails &amp; Forgotten Places</a></i>.</strong>"
+          return text;
+          },
+
+          onRemove: function(map) {
+            // Nothing to do here
+          }
+        });
+        L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
+        L.control.textbox({ position: 'topright' }).addTo(map);
+
+  
+        var layers = {
+          'Basic Topo': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+            }).addTo(map),
+
+            'Streets': L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            }),
+
+            'Esri Street Map': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+	          attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+            }),
+
+            'Aerial': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+            }),
+
+            'NatGeo': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+            maxZoom: 16
+            }),
+
+            'USGS Topo': L.tileLayer('https://caltopo.s3.amazonaws.com/topo/{z}/{x}/{y}.png', {
+              attribution: "USDA images from <a href='http://caltopo.com/'>CalTopo</a>", 
+              minZoom: 6, 
+              maxZoom:  16
+            }),
+
+            '1896 Mount Desert Island Map': L.tileLayer('https://mapwarper.net/maps/tile/44483/{z}/{x}/{y}.png', {
+              attribution: "Map reproduction courtesy of the Norman B. Leventhal Map & Education Center at the Boston Public Library",
+              maxZoom:16
+            }),
+
+            '1903 Path Map': L.tileLayer('https://geo.leventhalmap.org/maps/tile/5793/{z}/{x}/{y}.png', {
+              attribution: "Map reproduction courtesy of the Norman B. Leventhal Map & Education Center at the Boston Public Library",
+              maxZoom:16
+            }),     
+
+            '1909 Path Map': L.tileLayer('https://mapwarper.net/maps/tile/24404/{z}/{x}/{y}.png', {
+              attribution: "Map reproduction courtesy of the Norman B. Leventhal Map & Education Center at the Boston Public Library",
+              maxZoom:16
+            }),  
+
+            '1911 Path Map': L.tileLayer('https://geo.leventhalmap.org/maps/tile/4694/{z}/{x}/{y}.png', {
+              attribution: "Map reproduction courtesy of the Norman B. Leventhal Map & Education Center at the Boston Public Library",
+              maxZoom: 16
+            }),
+
+            '1916 Path Map': L.tileLayer('https://mapwarper.net/maps/tile/24535/{z}/{x}/{y}.png', {
+              attribution: "Courtesy of MapWarper.net",
+              maxZoom: 16
+            }), 
+
+            '1921 Path Map': L.tileLayer('https://mapwarper.net/maps/tile/24596/{z}/{x}/{y}.png', {
+              attribution: "Courtesy of MapWarper.net",
+              maxZoom: 16 
+            }), 
+
+            '1930 Path Map': L.tileLayer('https://mapwarper.net/maps/tile/24595/{z}/{x}/{y}.png', {
+              attribution: "Courtesy of MapWarper.net",
+              maxZoom: 16 
+            }),
+
+            '1941 Path Map': L.tileLayer('https://mapwarper.net/maps/tile/24594/{z}/{x}/{y}.png', {
+              attribution: "Courtesy of MapWarper.net",
+              maxZoom: 16 
+            }),
+
+            '1916 Acadia Topo': L.tileLayer('https://mapwarper.net/maps/tile/24529/{z}/{x}/{y}.png', {
+              attribution: "Courtesy of MapWarper.net",
+              maxZoom: 16
+            }),
+
+            '1942 Acadia Topo': L.tileLayer('https://mapwarper.net/maps/tile/24419/{z}/{x}/{y}.png', {
+                attribution: "Courtesy of MapWarper.net",
+                maxZoom: 16
+            }),
+
+            '1910 Maine Topo': L.esri.imageMapLayer({url: 'https://gis.maine.gov/arcgis/rest/services/imageryBaseMapsEarthCover/topoUsgs24k1910/ImageServer'}),
+
+            '1945 Maine Topo': L.esri.imageMapLayer({url: 'https://gis.maine.gov/arcgis/rest/services/imageryBaseMapsEarthCover/topoUsgs24k1945/ImageServer'}),
+
+            'Pathmakers (East)': L.tileLayer('https://mapwarper.net/maps/tile/26329/{z}/{x}/{y}.png', {
+                attribution: "Courtesy of MapWarper.net"
+            }),
+
+            'Pathmakers (West)': L.tileLayer('https://mapwarper.net/maps/tile/26294/{z}/{x}/{y}.png', {
+                attribution: "Courtesy of MapWarper.net"
+            }),
+
+            
+        };
+    
+    jQuery.getJSON('acadia-2.geojson', function (geojsonData) {
+
+      var categories = {};
+      var pointType;
+
+      var allPoints = L.geoJson(geojsonData, {
+        pointToLayer: function(feature, latlng) {   
+
+           var iconColor;
+
+          if (feature.properties.type == "Parking"){
+            iconColor = "gray";
+          }
+          else {
+            iconColor = "red";
+        }
+          var myIcon = L.divIcon({ 
+            className: "number-icon-" + iconColor,
+            iconSize: [25, 25],
+            iconAnchor: [12, 15],
+            popupAnchor: [0, -12],
+            html: feature.properties.number
+          });
+          // L.marker(latlng).addTo(map);  Use to find location of coordinates to adjust placement of divIcon and popup
+          return new L.marker(latlng, {icon: myIcon});
+        },
+        
+        onEachFeature: function(feature, layer) {
+                
+          layer.bindPopup("<b>Name: </b>" + feature.properties.name + '<br>' + "<b>Type: </b>" + feature.properties.type + "<br>" + feature.properties.notes);
+          
+          pointType = feature.properties.type;
+          // Initialize the category array if not already set.
+          if (typeof categories[pointType] === "undefined") {
+            categories[pointType] = [];
+          }
+          categories[pointType].push(layer);         
+        }        
+      });
+
+      // Feature layers for control	
+      var overlaysObj = {
+        // '1903 Path Map': L.tileLayer('https://geo.leventhalmap.org/maps/tile/5793/{z}/{x}/{y}.png', {
+        //       attribution: "Map reproduction courtesy of the Norman B. Leventhal Map & Education Center at the Boston Public Library",
+        //       maxZoom:16
+        //   }),
+        //   '1909 Path Map': L.tileLayer('https://mapwarper.net/maps/tile/24404/{z}/{x}/{y}.png', {
+        //     attribution: "Map reproduction courtesy of the Norman B. Leventhal Map & Education Center at the Boston Public Library",
+        //     maxZoom:16
+        //   }),            
+
+        //   '1911 Path Map': L.tileLayer('https://geo.leventhalmap.org/maps/tile/4694/{z}/{x}/{y}.png', {
+        //     attribution: "Map reproduction courtesy of the Norman B. Leventhal Map & Education Center at the Boston Public Library",
+        //     maxZoom: 16
+        //   }),  
+          };
+      var StatusName;
+      var StatusArray;
+      var StatusLG;
+
+      var labelArray = [];
+
+      for (StatusName in categories) {
+        StatusArray = categories[StatusName];
+        StatusLG = L.layerGroup(StatusArray).addTo(map);
+        StatusLG.StatusName = StatusName;  
+        overlaysObj[StatusName] = StatusLG;
+        labelArray.push(StatusLG.StatusName);
+      }
+   
+      var control = L.control.layers(layers, overlaysObj, {
+        collapsed: true
+      }).addTo(map);
+
+      map.fitBounds(allPoints.getBounds());   
+
+      L.control.mapCenterCoord({
+          latlngFormat: 'DM',
+          latlngDesignators: true
+        }).addTo(map);
+
+      // L.control.mapCenterCoord().addTo(map);
+
+      $(document).ready(function(){
+        
+        var toggleOverlays = document.getElementsByClassName("leaflet-control-layers-overlays")[0].getElementsByTagName("input");
+        
+        toggleOverlays[0].setAttribute('id','first');
+        toggleOverlays[1].setAttribute('id','second');
+
+      });
+    });
+
+  </script>
+</body>
+</html>
